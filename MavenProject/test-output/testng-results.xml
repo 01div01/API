@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-27T21:22:24 IST" name="Default suite" finished-at="2020-08-27T21:22:29 IST" duration-ms="4723">
+    <groups>
+    </groups>
+    <test started-at="2020-08-27T21:22:24 IST" name="Default test" finished-at="2020-08-27T21:22:29 IST" duration-ms="4723">
+      <class name="com.SoftSuave.BustelSpotTest.ApiTesting">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:24 IST" name="login" finished-at="2020-08-27T21:22:26 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addDuplicateProject()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:26 IST" name="addDuplicateProject" finished-at="2020-08-27T21:22:27 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDuplicateProject -->
+        <test-method signature="addProject()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="addProject" finished-at="2020-08-27T21:22:27 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProject -->
+        <test-method signature="addTask()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="addTask" finished-at="2020-08-27T21:22:27 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTask -->
+        <test-method signature="deleteTask()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="deleteTask" finished-at="2020-08-27T21:22:27 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method signature="editOrganisation()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="editOrganisation" finished-at="2020-08-27T21:22:27 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOrganisation -->
+        <test-method signature="editTask()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="editTask" finished-at="2020-08-27T21:22:27 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTask -->
+        <test-method signature="getAppActivity()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="getAppActivity" finished-at="2020-08-27T21:22:27 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAppActivity -->
+        <test-method signature="getNextDate()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:27 IST" name="getNextDate" finished-at="2020-08-27T21:22:28 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNextDate -->
+        <test-method signature="getProject()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="getProject" finished-at="2020-08-27T21:22:28 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProject -->
+        <test-method signature="getUserList()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="getUserList" finished-at="2020-08-27T21:22:28 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserList -->
+        <test-method signature="inviteMembers()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="inviteMembers" finished-at="2020-08-27T21:22:28 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inviteMembers -->
+        <test-method signature="inviteMembersFromMembers()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="inviteMembersFromMembers" finished-at="2020-08-27T21:22:28 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inviteMembersFromMembers -->
+        <test-method signature="searchProject()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="searchProject" finished-at="2020-08-27T21:22:28 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProject -->
+        <test-method signature="viewScreenShoots()[pri:0, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="viewScreenShoots" finished-at="2020-08-27T21:22:28 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewScreenShoots -->
+        <test-method signature="addOrganisation()[pri:2, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="addOrganisation" finished-at="2020-08-27T21:22:28 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOrganisation -->
+        <test-method signature="forgetPassword()[pri:2, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="forgetPassword" finished-at="2020-08-27T21:22:28 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPassword -->
+        <test-method signature="selectTheDetailsInActivityPage()[pri:2, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:28 IST" name="selectTheDetailsInActivityPage" finished-at="2020-08-27T21:22:29 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTheDetailsInActivityPage -->
+        <test-method signature="signup()[pri:2, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:29 IST" name="signup" finished-at="2020-08-27T21:22:29 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="viewTheDetailsInActivityPage()[pri:2, instance:com.SoftSuave.BustelSpotTest.ApiTesting@1d119efb]" started-at="2020-08-27T21:22:29 IST" name="viewTheDetailsInActivityPage" finished-at="2020-08-27T21:22:29 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewTheDetailsInActivityPage -->
+      </class> <!-- com.SoftSuave.BustelSpotTest.ApiTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SoftSuave.BustelSpotTest.MembersFunctionalityTest">
+        <methods>
+          <include name="clickOnRemoveInviteeLink"/>
+          <include name="driverInitialization"/>
+          <include name="close"/>
+          <include name="clickOnResendInvitationLink"/>
+          <include name="membersFunctionality"/>
+        </methods>
+      </class> <!-- com.SoftSuave.BustelSpotTest.MembersFunctionalityTest -->
+      <class name="com.SoftSuave.BustelSpotTest.TaskTest">
+        <methods>
+          <include name="driverInitialization"/>
+          <include name="close"/>
+          <include name="deleteFunctionalityYes"/>
+          <include name="clickOnTaskBeforeAllMethod"/>
+        </methods>
+      </class> <!-- com.SoftSuave.BustelSpotTest.TaskTest -->
+      <class name="com.SoftSuave.BustelSpotTest.ExtraFunctionalityTest">
+        <methods>
+          <include name="clickOnOptions"/>
+          <include name="loginAsSuperAdmin"/>
+          <include name="driverInitialization"/>
+          <include name="projectFunctionality"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.SoftSuave.BustelSpotTest.ExtraFunctionalityTest -->
+      <class name="com.SoftSuave.BustelSpotTest.ActivityPageStatusTest">
+        <methods>
+          <include name="getActivityTextTotalBillableHours"/>
+          <include name="login"/>
+          <include name="signout"/>
+          <include name="getActivityTextTotalActivity"/>
+          <include name="driverInitialization"/>
+          <include name="getActivityTextTotalHours"/>
+          <include name="close"/>
+          <include name="getActivityTextTotalNoofUsers"/>
+        </methods>
+      </class> <!-- com.SoftSuave.BustelSpotTest.ActivityPageStatusTest -->
+      <class name="com.SoftSuave.BustelSpotTest.CreateManagementTest">
+        <methods>
+          <include name="createOrganisationDublicates"/>
+          <include name="editManagementFunctionality"/>
+          <include name="deleteManagementFunctionality"/>
+          <include name="clickOnParticularManagementTest"/>
+          <include name="driverInitialization"/>
+          <include name="close"/>
+          <include name="clickOnParticularManagementTestAndResfresh"/>
+          <include name="createOrganisation"/>
+          <include name="organisationPressBack"/>
+        </methods>
+      </class> <!-- com.SoftSuave.BustelSpotTest.CreateManagementTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
